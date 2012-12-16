@@ -26,6 +26,7 @@ module.exports = class RabbitMqPlugin extends EventEmitter
 		return "RabbitMqPlugin"
 	open: ()->
 		@stats = new AMQPStats(@config.server)
+		@emit 'ready'
 		@check()
 	stop: ()->
 		@enabled = no
