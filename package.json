@@ -1,0 +1,17 @@
+{
+  "name": "web-stress-tester-plugin-rabbitmq",
+  "version": "0.0.0",
+  "description": "Very simple plugin for monitoring queues in RabbitMQ during running stress test",
+  "main": "index.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "coffee-script": "*",
+	 "amqp-stats": "*"
+  },
+  "repository": "",
+  "author": "Lukas Drbal",
+  "license": "MIT",
+  "readmeFilename": "README.md"
+}
